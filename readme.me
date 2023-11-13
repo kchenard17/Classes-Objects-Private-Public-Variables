@@ -1,1 +1,21 @@
+class ImmaculataStudent:
+    def __init__(self, name, major, student_id):
+        self.name = name
+        self.major = major
+        self.minor = minor
+        self.grade = grade
+        self.birthday = birthday
+        self.student_id = student_id
+        
+    def display_info(self):
+        print(f"Name: {self.name}")
+        print(f"Major: {self.major}")
+        print(f"Minor: {self.minor}")
+        print(f"Grade: {self.grade}")
+        print(f"Birthday: {self.birthday}")
+        print(f"Student ID: {self.student_id}")
+         
+student1 = ImmaculataStudent("John Doe", "Computer Science", "A")
+student2 = ImmaculataStudent("Jane Smith", "Business Administration", "A")
 
+student1.display_info()
